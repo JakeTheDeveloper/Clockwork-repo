@@ -1,0 +1,92 @@
+﻿body {
+    background-color: #4F628E;
+}
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitButtons {
+    border-radius: 12px;
+    background-color: #A9B3CC;
+    color: #000000;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.submitButtons:hover {
+    background-color: #D4D9E6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#timeZoneDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timeZoneSelect {
+    width: 450px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #D4D9E6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+
+#table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:100%;
+    height:80%;
+}
+
+#listView {
+    text-align: center;
+    display: flex;
+    justify-content: center;    width: 100%;
+    height: 800px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#listView::-webkit-scrollbar {
+    height: 0px;
+}
+
+td {
+    border: 1px solid black;
+    min-width: 200px;
+    min-height: 100px;
+}
+
+@media(max-width: 1050px){
+    h2{
+        font-size:1.5rem;
+    }
+    p{
+        font-size:1.25rem;
+    }
+    td{
+        max-width:100px;
+        max-height:40px;
+    }
+}

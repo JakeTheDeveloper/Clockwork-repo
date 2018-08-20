@@ -1,0 +1,18 @@
+﻿<h2>AWH Clockwork Project @ViewData["Version"] on @ViewData["Runtime"]!</h2>
+
+<div id="buttons">
+    <button type="submit" onclick="UserAction(this)" class="submitButtons" id="SubmitButton">Get local time</button>
+    <button type="submit" onclick="UserAction(this)" class="submitButtons">Get specific timezone time</button>
+</div>
+
+<div id="timeZoneDiv">
+    <select id="timeZoneSelect">
+    </select>
+</div>
+
+<p id="output">...</p>
+<p id="time">...</p>
+
+<div id="table">
+    <table id="listView" cellspacing="0"></table>
+</div>
